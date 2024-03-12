@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\project\\DAL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\controllers\\animecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\controllers\\animecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\views\\home\\getanimebasedoncategoreis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\views\\home\\getanimebasedoncategoreis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\repositories\\animerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\repositories\\animerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\repositories\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\repositories\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|d:\\project\\dal\\otakuoasis\\controllers\\animecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{461BBCCA-DB79-4032-8B17-85D24936DA5A}|OtakuOasis\\OtakuOasis.csproj|solutionrelative:otakuoasis\\controllers\\animecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +50,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "OtakuOasis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "OtakuOasis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AQIAAA4FAAAAAAAAAAAAAA4FAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-12T23:40:30.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GetAnimeBasedOnCategoreis.cshtml",
               "DocumentMoniker": "D:\\project\\DAL\\OtakuOasis\\Views\\Home\\GetAnimeBasedOnCategoreis.cshtml",
               "RelativeDocumentMoniker": "OtakuOasis\\Views\\Home\\GetAnimeBasedOnCategoreis.cshtml",
               "ToolTip": "D:\\project\\DAL\\OtakuOasis\\Views\\Home\\GetAnimeBasedOnCategoreis.cshtml",
               "RelativeToolTip": "OtakuOasis\\Views\\Home\\GetAnimeBasedOnCategoreis.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAgAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-12T23:09:41.053Z",
               "EditorCaption": ""
@@ -65,14 +82,14 @@
               "RelativeDocumentMoniker": "OtakuOasis\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\project\\DAL\\OtakuOasis\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "OtakuOasis\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-12T21:39:10.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\project\\DAL\\OtakuOasis\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OtakuOasis\\Controllers\\HomeController.cs",
@@ -85,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AnimeRepository.cs",
               "DocumentMoniker": "D:\\project\\DAL\\OtakuOasis\\Repositories\\AnimeRepository.cs",
               "RelativeDocumentMoniker": "OtakuOasis\\Repositories\\AnimeRepository.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\project\\DAL\\OtakuOasis\\Repositories\\CategoryController.cs",
               "RelativeDocumentMoniker": "OtakuOasis\\Repositories\\CategoryController.cs",
@@ -111,13 +128,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AnimeController.cs",
               "DocumentMoniker": "D:\\project\\DAL\\OtakuOasis\\Controllers\\AnimeController.cs",
               "RelativeDocumentMoniker": "OtakuOasis\\Controllers\\AnimeController.cs",
               "ToolTip": "D:\\project\\DAL\\OtakuOasis\\Controllers\\AnimeController.cs",
               "RelativeToolTip": "OtakuOasis\\Controllers\\AnimeController.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAjwHwAAAAkAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwEsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T23:55:02.469Z",
               "EditorCaption": ""
