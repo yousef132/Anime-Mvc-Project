@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Anime>
+@{
+ViewData["Title"] = "Animes";
+}
+<a asp-action="Create" asp-controller="Anime" type="button" class="btn btn-secondary btn-lg">
+    <i class="bi bi-plus-circle-dotted"></i>
+    Add Anime
+</a>
+@if (!Model.Any())
+{
+    <partial name="_Alert" />
+}
+else
+{
+    <div class="mt-5">
+        <table class="table table-bordered border-primary">
+            <tbody>
+                @foreach (var anime in Model)
+                {
+                    <tr class="border-1 border-success">
+                        <td>
+                            <div class="d-flex">
+                                <div class="pe-4">
+                                    <a asp-action="Details" asp-route-id="@anime.Id">
+                                        <img src="@($"{FileSetting.ImagesPath}/{anime.Image}")" alt="@anime.Name" style="max-width: 90px" />
+                                    </a>
+                                </div>
+                                <div class="d-flex flex-column justify-content-around">
+                                    <h3>@anime.Name</h3>
+                                    <div>
+                                        @foreach (var animecategory in anime.AnimeCategories)
+                                        {
+                                            <span class="badge rounded-pill bg-primary" style="width:fit-content;padding:10px; font-size: 15px;">@animecategory.Category.Name</span>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="align-middle">
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-info rounded rounded-3 me-2" asp-action="Update" asp-route-id="@anime.Id">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </a>
+                                <a class="btn btn-danger rounded rounded-3" asp-action="Delete" asp-route-id="@anime.Id">
+                                    <i class="bi bi-trash3"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

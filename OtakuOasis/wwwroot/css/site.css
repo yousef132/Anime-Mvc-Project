@@ -1,0 +1,68 @@
+* {
+    font-family: "Kode Mono", monospace;
+    padding:0px;
+    margin:0px;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+select{
+    max-width:100%;
+}
+.cover-preview {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 200px
+}
+
+/*Start Overriding*/
+
+
+.select2-container--default .select2-selection--multiple {
+    background-color: #30115e;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: text;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid black 1px;
+    outline: 0;
+    background-color: #30115e;
+    
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    list-style: none;
+    background-color: #30115e;
+}
+
+.select2-results__option {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #30115e;
+}
+

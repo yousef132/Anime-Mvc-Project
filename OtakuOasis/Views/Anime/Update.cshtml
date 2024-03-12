@@ -1,0 +1,35 @@
+﻿@model UpdateAnimeViewModel
+@{
+    ViewData["Title"] = "Update";
+}
+
+
+@* Noticing That There Is A File In The Form *@
+<form asp-controller="Anime" asp-action="Update" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-6">
+            <partial name="_CreateUpdatePartialView" model="Model" />
+
+            <div class="form-group">
+                <label asp-for="Image" class="form-label mt-4"></label>
+                <input type="file" class="form-control" asp-for="Image"
+                       data-rule-extension="@FileSetting.AllowedExtentions.Replace(".", string.Empty)"
+                       data-msg-extension="Not allowed extension" />
+                <small class="form-text text-muted">Only @FileSetting.AllowedExtentions Files Are Allowed With Max Size 1MB  </small>
+                <span asp-validation-for="Image" class="text-danger d-block"></span>
+            </div>
+            <button type="submit" class="btn btn-light text-black mt-4">Update</button>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center pt-4">
+            <img class="cover-preview" src="@($"{FileSetting.ImagesPath}/{Model.CurrentImage}")" alt="Cover" />
+        </div>
+    </div>
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial">
+        <script src="~/js/anime-form.js" asp-append-version="true"></script>
+        <script src="~/js/helper.js" asp-append-version="true"></script>
+}

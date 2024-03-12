@@ -1,0 +1,40 @@
+﻿@model AnimeViewModel
+<div class="form-group">
+    <label asp-for="Name" class="form-label mt-4"></label>
+    <input type="text" class="form-control" asp-for="Name">
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Description" class="form-label mt-4"></label>
+    <textarea type="text" class="form-control" asp-for="Description"></textarea>
+    <span asp-validation-for="Description" class="text-danger"></span>
+</div>
+<div class="form-group">
+
+    <label asp-for="Rate" class="form-label mt-4"></label>
+    <div class="d-flex justify-content-between">
+        <input onchange="DispalyRate()" type="range" class="form-range" min="0" max="5" step="1" asp-for="Rate">
+        <div id="range" class="text-secondary d-flex justify-content-center align-items-center"
+             style="height:30px;font-weight: bold;font-size: 30px; margin-left: 10px;">
+            @Model.Rate
+        </div>
+        <span asp-validation-for="Rate" class="text-danger"></span>
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="NOEpisods" class="form-label mt-4"></label>
+    <input class="form-control" asp-for="NOEpisods">
+    <span  asp-validation-for="NOEpisods" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="NOSeason" class="form-label mt-4"></label>
+    <input class="form-control" asp-for="NOSeason" >
+    <span asp-validation-for="NOSeason" class="text-danger"></span>
+</div>
+<div class="form-group" style="max-width:100%">
+    <label asp-for="categories" class="form-label mt-4"></label>
+    <select class="form-select" asp-for="SelectedCategories" asp-items="Model.categories" data-placeholder="Select a category" >
+    </select>
+    <span asp-validation-for="SelectedCategories" class="text-danger"></span>
+</div>
+

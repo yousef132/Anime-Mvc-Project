@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Anime>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (!Model.Any())
+{
+<partial name="_Alert"/>
+}
+else
+{
+    <div class="row mt-5">
+        @foreach (var anime in Model)
+        {
+            <div class="col-lg-4 col-md-6">
+                <a class="card border-success mb-3 text-decoration-none rounded-3 overflow-hidden" style="max-width:20rem;" asp-controller="Anime" asp-action="Details" asp-route-id="@anime.Id">
+                    <div class="card-body" style="background-image: url(@($"{FileSetting.ImagesPath}/{anime.Image}")); background-size: cover; background-position: center; height: 400px;">
+                    </div>
+
+                    <div style="padding:10px" class="card-footer text-muted d-flex justify-content-between align-items-center">
+                        <h6 style="margin-bottom:0px;">@anime.Name</h6>
+                        <div>
+                            @foreach (var animecategory in anime.AnimeCategories)
+                            {
+                                <span class="badge rounded-pill bg-primary" >@animecategory.Category.Name</span>
+                            }
+                        </div>
+                    </div>
+
+                </a>
+
+            </div>
+        }
+    </div>
+}
