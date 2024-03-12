@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k/UD0uy4PrrpzWe19GmZrKyFyQFyvcrwsUHxFClC21Q=",
+  "Hash": "ten/U7x5sMFxspG1xlu23EDE2JcdJPP1UVMbNoqAL7A=",
   "Source": "OtakuOasis",
   "BasePath": "_content/OtakuOasis",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "D:\\project\\DAL\\OtakuOasis\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OtakuOasis.bundle.scp.css"
     },
     {
-      "Identity": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\assets\\AnimeImages\\30df8510-0c3e-4dc4-b6cf-e4607bf9d40a.jpg",
+      "Identity": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\assets\\AnimeImages\\9193586a-cefc-433b-9f99-eaae870df451.jpg",
       "SourceId": "OtakuOasis",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\",
       "BasePath": "_content/OtakuOasis",
-      "RelativePath": "assets/AnimeImages/30df8510-0c3e-4dc4-b6cf-e4607bf9d40a.jpg",
+      "RelativePath": "assets/AnimeImages/9193586a-cefc-433b-9f99-eaae870df451.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\AnimeImages\\30df8510-0c3e-4dc4-b6cf-e4607bf9d40a.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\AnimeImages\\9193586a-cefc-433b-9f99-eaae870df451.jpg"
     },
     {
-      "Identity": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\assets\\AnimeImages\\54f10a83-7203-4471-8b8b-65c1d21b7568.jpg",
+      "Identity": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\assets\\AnimeImages\\cfe881c9-c4a7-4045-ba4d-97c8cec70700.jpg",
       "SourceId": "OtakuOasis",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\",
       "BasePath": "_content/OtakuOasis",
-      "RelativePath": "assets/AnimeImages/54f10a83-7203-4471-8b8b-65c1d21b7568.jpg",
+      "RelativePath": "assets/AnimeImages/cfe881c9-c4a7-4045-ba4d-97c8cec70700.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\AnimeImages\\54f10a83-7203-4471-8b8b-65c1d21b7568.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\AnimeImages\\cfe881c9-c4a7-4045-ba4d-97c8cec70700.jpg"
     },
     {
-      "Identity": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\assets\\AnimeImages\\b24a5475-bcff-4cf6-aee7-eed056de8881.jpg",
+      "Identity": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\assets\\AnimeImages\\ef830f0a-e32f-49db-b51a-1f37e619f9d8.jpg",
       "SourceId": "OtakuOasis",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\",
       "BasePath": "_content/OtakuOasis",
-      "RelativePath": "assets/AnimeImages/b24a5475-bcff-4cf6-aee7-eed056de8881.jpg",
+      "RelativePath": "assets/AnimeImages/ef830f0a-e32f-49db-b51a-1f37e619f9d8.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\AnimeImages\\b24a5475-bcff-4cf6-aee7-eed056de8881.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\AnimeImages\\ef830f0a-e32f-49db-b51a-1f37e619f9d8.jpg"
     },
     {
       "Identity": "D:\\project\\DAL\\OtakuOasis\\wwwroot\\css\\bootstrap.min.css",

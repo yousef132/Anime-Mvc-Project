@@ -1,4 +1,5 @@
-﻿using OtakuOasis.Entities;
+﻿using DAL.Entities;
+using OtakuOasis.Entities;
 using OtakuOasis.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,8 @@ namespace OtakuOasis.Interfaces
         public void Delete(Anime anime);
 
         public Task<Anime?> Update (UpdateAnimeViewModel model);
+
+        public IEnumerable<Anime> GetAnimeByCategory(int categoryId);
 
     }
 }

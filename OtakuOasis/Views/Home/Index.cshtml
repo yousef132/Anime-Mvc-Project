@@ -1,7 +1,12 @@
 ﻿@model IEnumerable<Anime>
 @{
     ViewData["Title"] = "Home Page";
+
+    SelectList categories = new SelectList(ViewBag.Categories, "Id", "Name");
 }
+
+
+
 
 @if (!Model.Any())
 {
@@ -9,27 +14,47 @@
 }
 else
 {
-    <div class="row mt-5">
-        @foreach (var anime in Model)
-        {
-            <div class="col-lg-4 col-md-6">
-                <a class="card border-success mb-3 text-decoration-none rounded-3 overflow-hidden" style="max-width:20rem;" asp-controller="Anime" asp-action="Details" asp-route-id="@anime.Id">
-                    <div class="card-body" style="background-image: url(@($"{FileSetting.ImagesPath}/{anime.Image}")); background-size: cover; background-position: center; height: 400px;">
-                    </div>
 
-                    <div style="padding:10px" class="card-footer text-muted d-flex justify-content-between align-items-center">
-                        <h6 style="margin-bottom:0px;">@anime.Name</h6>
-                        <div>
-                            @foreach (var animecategory in anime.AnimeCategories)
-                            {
-                                <span class="badge rounded-pill bg-primary" >@animecategory.Category.Name</span>
-                            }
-                        </div>
-                    </div>
 
-                </a>
-
-            </div>
-        }
+    <div style="width:200px">
+        <label for="category" class="form-label mt-4">Select Category</label>
+        <select class="form-select" id="category" asp-items="categories" data-placeholder="Select a category" onchange="GetAnimesWithCategories()">
+            <option value="0">All Categories</option>
+        </select>
     </div>
+ 
+
+
+
+     <div class="row mt-5" id="Items">
+        <partial name="GetAnimeBasedOnCategoreis" model="@Model" />
+
+    </div> 
+
+}
+
+@section Scripts{
+
+    <script>
+
+        function GetAnimesWithCategories() {
+            // get category id
+            var element = document.getElementById("category").value;
+            console.log(element);
+            var container = document.getElementById("Items");
+
+
+            $.ajax({
+                url: "/Home/GetAnimeBasedOnCategoreis",
+                data: {"CategoryId" : element},
+                success: function (result) {
+
+                    container.innerHTML = result;
+                }
+
+            });
+
+        }
+    </script>
+
 }

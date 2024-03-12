@@ -117,5 +117,22 @@ namespace OtakuOasis.Repositories
             await Image.CopyToAsync(stream);
             return imagename;
         }
+
+        public IEnumerable<Anime> GetAnimeByCategory(int categoryId)
+             => GetAll().Where(a => a.AnimeCategories.Any(ac => ac.CategoryId == categoryId));
+
+        //public IEnumerable<Anime> GetAnimeByCategory(int categoryId)
+        //{
+        //    var f = context.AnimeCategories.Where(x => x.CategoryId == 21).ToList();
+        //    //.Include(x => x.Anime);
+
+        //     var s = f.Select(x => x.Anime).ToList();
+
+
+        //      return s;
+
+        //}
+
+
     }
 }
