@@ -25,6 +25,10 @@
                        </div>
                     </div>
                     <p class="fs-5 mt-3">@Model.Description</p>  
+                    <div class="mt-5">
+                        <p class="Nums text-light"> <span class="text-light">Seasons</span> : @Model.NOSeason</p>
+                        <p class="Nums text-light"> <span class="text-light">Episods</span> : @Model.NOEpisods</p>
+                    </div>
                 </div>
                 <div>
                     @foreach (var animecategory in Model.AnimeCategories)

@@ -22,9 +22,17 @@ html {
   position: relative;
   min-height: 100%;
 }
+.Nums span{
+    font-weight:bold;
+    font-size:20px
 
+}
+.Nums {
+    font-weight: bold;
+    font-size: 20px
+}
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 select{
