@@ -12,7 +12,7 @@ namespace OtakuOasis.Interfaces
     public interface IAnimeRepository
     {
         public IEnumerable<Anime> GetAll();
-        public Task CreateAnime(CreateAnimeViewModel model);
+        public Task Create(CreateAnimeViewModel model);
 
         public Anime? GetById (int id);
         public void Delete(Anime anime);

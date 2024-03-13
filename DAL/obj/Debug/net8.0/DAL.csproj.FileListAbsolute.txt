@@ -10,3 +10,4 @@ D:\project\DAL\DAL\obj\Debug\net8.0\DAL.dll
 D:\project\DAL\DAL\obj\Debug\net8.0\refint\DAL.dll
 D:\project\DAL\DAL\obj\Debug\net8.0\DAL.pdb
 D:\project\DAL\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\project\DAL\DAL\obj\Debug\net8.0\DAL.sourcelink.json

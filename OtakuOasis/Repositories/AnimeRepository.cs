@@ -30,12 +30,16 @@ namespace OtakuOasis.Repositories
             imagesPath = $"{webHostEnvironment.WebRootPath}{FileSetting.ImagesPath}";
 
         }
-        public IEnumerable<Anime> GetAll() => context.animes.Include(a=>a.AnimeCategories).ThenInclude(a=>a.Category).ToList();
+        public IEnumerable<Anime> GetAll() 
+            => context.animes
+                      .Include(a=>a.AnimeCategories)
+                      .ThenInclude(a=>a.Category)
+                      .ToList();
 
-        public async Task CreateAnime(CreateAnimeViewModel model)
+        public async Task Create(CreateAnimeViewModel model)
         {
 
-
+            // Manual Mapping
             Anime anime = new Anime()
             {
                 Name = model.Name,
@@ -54,7 +58,10 @@ namespace OtakuOasis.Repositories
             context.SaveChanges();
         }
 
-        public Anime? GetById(int id) => context.animes.Include(a=>a.AnimeCategories).ThenInclude(a=>a.Category).FirstOrDefault(a => a.Id == id);
+        public Anime? GetById(int id) 
+            => context.animes.Include(a=>a.AnimeCategories)
+                             .ThenInclude(a=>a.Category)
+                             .FirstOrDefault(a => a.Id == id);
 
         public void Delete(Anime anime)
         {
@@ -119,19 +126,8 @@ namespace OtakuOasis.Repositories
         }
 
         public IEnumerable<Anime> GetAnimeByCategory(int categoryId)
-             => GetAll().Where(a => a.AnimeCategories.Any(ac => ac.CategoryId == categoryId));
-
-        //public IEnumerable<Anime> GetAnimeByCategory(int categoryId)
-        //{
-        //    var f = context.AnimeCategories.Where(x => x.CategoryId == 21).ToList();
-        //    //.Include(x => x.Anime);
-
-        //     var s = f.Select(x => x.Anime).ToList();
-
-
-        //      return s;
-
-        //}
+             => GetAll().
+                Where(a => a.AnimeCategories.Any(ac => ac.CategoryId == categoryId));
 
 
     }

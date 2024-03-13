@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtakuOasis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb6a62db1ad40aec843741becca8e9a93d9d0e7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+287fe83018ec97923872a6ad7bace7131764d9a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("OtakuOasis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtakuOasis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

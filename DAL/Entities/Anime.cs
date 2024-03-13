@@ -7,7 +7,7 @@ namespace OtakuOasis.Entities
 	public class Anime: BaseEntity
 	{
 
-		[MaxLength(400)]
+		[MaxLength(1000)]
 		public string Description { get; set; }
 		[Range(0,5)]
 		public int Rate {  get; set; }

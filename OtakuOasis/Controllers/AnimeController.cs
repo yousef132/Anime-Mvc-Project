@@ -51,7 +51,7 @@ namespace OtakuOasis.Controllers
 
             //save anime in database
 
-           await animeRepository.CreateAnime(model);
+           await animeRepository.Create(model);
 
 
             //save image in server
